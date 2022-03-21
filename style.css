@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: "Roboto", "HelveticaNeue", sans-serif;
+}
+
+/* header */
+
+/* header background content */
+.header-top-content {
+    display: flex;
+    background-image: url(./img/bg-top.png);
+    position: relative;
+    height: 140px;
+    background-size: 100%;
+}
+
+.logo-top-head img {
+    height: 90px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+/* Responsive layout header */
+@media (max-width: 800px) {
+    .logo-top-head img {
+        width: 200px;
+    }
+}
+
+
+
+/* header navbar */
+.a-links {
+    display: flex;
+    background-color: #333;
+}
+
+.a-links a {
+    color: aqua;
+    padding: 15px 120px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.a-links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Responsive layout - navbar */
+@media screen and (max-width: 700px) {
+    .main-top, .a-links {   
+      flex-direction: column;
+    }
+  }
+/* Section */
+
+section {
+    box-sizing: border-box;
+}
+.main-top {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.main-top > div {
+    margin: 30px;
+    padding: 40px;
+    display: block;
+    font-size: 20px;
+}
+
+.neon {
+    width: 200px;
+    height: 200px;
+    flex: 25%;
+}
+
+
+.nemo {
+    width: 200px;
+    height: 200px;
+    flex: 25%;
+}
+
+
+.turtle-item {
+    width: 200px;
+    height: 200px;
+    flex: 25%;
+}
+
+
+.semi-terrestrial-item {
+    width: 200px;
+    height: 200px;
+    flex: 25%;
+}
+
+/* Responsive layout section */
+@media (max-width: 800px) {
+    .main-top {
+        flex-direction: column;
+    }
+}

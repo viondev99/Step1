@@ -1,0 +1,19 @@
+{
+    "cities": [
+        {
+            "name": "Ha Noi",
+            "country": "Vietnam"
+        },
+        {
+            "name": "Madrid",
+            "country": "Spain"
+        }
+
+    ],
+    
+    "football_club":
+    {
+        "name": "Real Madrid",
+        "champions": "13"
+    }
+}
